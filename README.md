@@ -10,7 +10,7 @@ This is a revamped version of a Discord bot I made all the way back in my Sophom
 *   **OpenAI Assistant Integration:** Connects to a pre-configured OpenAI Assistant using its ID.
 *   **Contextual Conversations:** Leverages the OpenAI Assistants API and Threads for generating context-aware responses, maintaining conversation history per Discord channel.
 *   **Manual Control Mode (`HalcM`):** Allows the bot owner (running the script locally) to trigger a local input popup (using Tkinter) and send messages directly *as the bot* until explicitly stopped.
-*   **Secure Configuration:** Primarily uses environment variables for API keys and tokens. Requires manual editing of the script for the owner's User ID.
+*   **"Secure Configuration":** Was designed at first to use environment variables for API keys and tokens. Not sure how much of that is left over but I would recommend doing it. Still requires manual editing of the script for the owner's User ID.
 *   **User Feedback:** Shows a "typing..." indicator in Discord while processing AI requests.
 
 ## Prerequisites
