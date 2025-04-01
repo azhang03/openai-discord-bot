@@ -25,6 +25,6 @@ Before you begin, ensure you have the following:
 4.  **OpenAI Account & API Key:**
     *   An account on the [OpenAI Platform](https://platform.openai.com/).
     *   An active API Key ([https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)).
-    *   Billing enabled on your OpenAI account (the Assistants API may quickly exceed free trial limits).
+    *   Billing enabled on your OpenAI account (it straight up will not let you call the API unless you have a payment method attached).
 5.  **OpenAI Assistant ID:**
     *   An Assistant created via the OpenAI Platform ([https://platform.openai.com/assistants](https://platform.openai.com/assistants)). You will need its ID (starting with `asst_...`). Configure its instructions, model (e.g., `gpt-4o-mini`, `gpt-4-turbo`), and any tools directly in the OpenAI portal.
